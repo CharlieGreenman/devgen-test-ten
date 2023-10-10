@@ -11,5 +11,7 @@ export class AppComponent {
 
   sideNavToggle(): void {
     this.sideNavOpen = !this.sideNavOpen;
+    console.log('this.sideNavOpen');
+    console.log(this.sideNavOpen);
   }
 }

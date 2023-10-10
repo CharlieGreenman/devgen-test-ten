@@ -7,10 +7,11 @@ import { AppRoutingModule } from "./routing/app-routing.module";
 import { GlobalHeaderComponentModule } from "@devgen-test-ten/common/ui";
 import { GlobalFooterModule } from "@devgen-test-ten/common/ui";
 import { GlobalSidenavModule } from "@devgen-test-ten/common/ui";
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule, GlobalHeaderComponentModule, GlobalFooterModule, GlobalSidenavModule],
+  imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule, GlobalHeaderComponentModule, GlobalFooterModule, GlobalSidenavModule, MatListModule],
   providers: [],
   bootstrap: [AppComponent],
 })

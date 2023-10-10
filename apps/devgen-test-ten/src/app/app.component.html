@@ -1,12 +1,13 @@
 <devgen-test-ten-global-header
-  (sidenavtoggle)="sideNavToggle()"
+  (sideNavToggle)="sideNavToggle()"
 ></devgen-test-ten-global-header>
 <div class="wrapper">
   <div class="container">
     <devgen-test-ten-global-sidenav [opened]="sideNavOpen">
-      <mat-nav-list sidenav="">
+      
+      <mat-nav-list sidenav>
         <a
-          mat-list-item=""
+          mat-list-item
           routerlinkactive="active-link"
           routerlink="/"
           (click)="sideNavToggle()"
