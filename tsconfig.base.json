@@ -44,6 +44,9 @@
       ],
       "@devgen-test-ten/data-models": [
         "libs/data-models/src/index.ts"
+      ],
+      "@devgen-test-ten/common/common-environment": [
+        "libs/common/common-environment/src/index.ts"
       ]
     }
   },
