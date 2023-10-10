@@ -10,6 +10,7 @@ import { GlobalSidenavModule } from "@devgen-test-ten/common/ui";
 import { MatListModule } from '@angular/material/list';
 import { StoreDevtoolsModule } from "@ngrx/store-devtools";
 import { StoreModule } from "@ngrx/store";
+import { StoreRouterConnectingModule, routerReducer } from "@ngrx/router-store";
 
 @NgModule({
   declarations: [AppComponent],
