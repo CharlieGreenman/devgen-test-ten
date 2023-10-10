@@ -41,6 +41,9 @@
       ],
       "@devgen-test-ten/data-graphql": [
         "libs/data-graphql/src/index.ts"
+      ],
+      "@devgen-test-ten/data-models": [
+        "libs/data-models/src/index.ts"
       ]
     }
   },
