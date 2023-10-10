@@ -1,5 +1,21 @@
+<devgen-test-ten-global-header
+  (sidenavtoggle)="sideNavToggle()"
+></devgen-test-ten-global-header>
 <div class="wrapper">
   <div class="container">
-    
+    <devgen-test-ten-global-sidenav [opened]="sideNavOpen">
+      <mat-nav-list sidenav="">
+        <a
+          mat-list-item=""
+          routerlinkactive="active-link"
+          routerlink="/"
+          (click)="sideNavToggle()"
+        >
+          <span class="App__sidenav-text">Home</span>
+        </a>
+      </mat-nav-list>
+      <router-outlet></router-outlet>
+    </devgen-test-ten-global-sidenav>
   </div>
 </div>
+<devgen-test-ten-global-footer> </devgen-test-ten-global-footer>
